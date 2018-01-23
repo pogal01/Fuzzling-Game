@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: 7e048c7196382fb49a54407d687b196b
+timeCreated: 1506618010
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Beak
+    100002: Body
+    100004: Body 1
+    100006: Body 1_MeshPart0
+    100008: Body 1_MeshPart1
+    100010: group
+    100012: group10
+    100014: group2
+    100016: group21
+    100018: group22
+    100020: group23
+    100022: group24
+    100024: group27
+    100026: group3
+    100028: group31
+    100030: group4
+    100032: group5
+    100034: group6
+    100036: group7
+    100038: group8
+    100040: group9
+    100042: Head
+    100044: Head 1
+    100046: left__foot
+    100048: Left_claw
+    100050: Left_claw_1
+    100052: Left_claw_2
+    100054: Left_claw_3
+    100056: left_ear
+    100058: left_ear1
+    100060: Left_ear_stork
+    100062: Left_ear_stork3
+    100064: Left_ear_stork4
+    100066: Left_ear_top
+    100068: Left_eye
+    100070: Left_Fin
+    100072: Left_finger_1
+    100074: Left_finger_2
+    100076: Left_finger_3
+    100078: Left_left_foot
+    100080: left_left_foot
+    100082: Left_left_toe
+    100084: Left_left_toe 1
+    100086: Left_leg
+    100088: Left_leg 1
+    100090: Left_right_foot
+    100092: left_right_toe
+    100094: left_toe
+    100096: Left_wing
+    100098: pasted__group21
+    100100: pasted__group21 1
+    100102: pasted__group22
+    100104: pasted__group22 1
+    100106: pasted__group23
+    100108: pasted__group26
+    100110: pasted__group3
+    100112: pasted__group3 1
+    100114: pasted__group3 2
+    100116: pasted__group4
+    100118: pasted__group4 1
+    100120: pasted__group4 2
+    100122: pasted__group5
+    100124: pasted__group5 1
+    100126: pasted__group5 2
+    100128: pasted__group6
+    100130: pasted__group6 1
+    100132: pasted__group6 2
+    100134: pasted__group7
+    100136: pasted__group7 1
+    100138: pasted__group7 2
+    100140: pasted__group8
+    100142: pasted__left_left_foot
+    100144: pasted__pasted__group21
+    100146: pasted__pasted__group21 1
+    100148: pasted__pasted__group22
+    100150: pasted__pasted__group3
+    100152: pasted__pasted__group3 1
+    100154: pasted__pasted__group3 2
+    100156: pasted__pasted__group4
+    100158: pasted__pasted__group4 1
+    100160: pasted__pasted__group4 2
+    100162: pasted__pasted__group5
+    100164: pasted__pasted__group5 1
+    100166: pasted__pasted__group5 2
+    100168: pasted__pasted__group6
+    100170: pasted__pasted__group6 1
+    100172: pasted__pasted__group6 2
+    100174: pasted__pasted__group7
+    100176: pasted__pasted__group7 1
+    100178: pasted__pasted__group7 2
+    100180: pasted__pasted__left_left_foot
+    100182: pasted__pasted__Left_left_toe
+    100184: pasted__pasted__pasted__group21
+    100186: pasted__pasted__pasted__group3
+    100188: pasted__pasted__pasted__group3 1
+    100190: pasted__pasted__pasted__group4
+    100192: pasted__pasted__pasted__group4 1
+    100194: pasted__pasted__pasted__group5
+    100196: pasted__pasted__pasted__group5 1
+    100198: pasted__pasted__pasted__group6
+    100200: pasted__pasted__pasted__group6 1
+    100202: pasted__pasted__pasted__group7
+    100204: pasted__pasted__pasted__group7 1
+    100206: pasted__pasted__pasted__pasted__group3
+    100208: pasted__pasted__pasted__pasted__group4
+    100210: pasted__pasted__pasted__pasted__group5
+    100212: pasted__pasted__pasted__pasted__group6
+    100214: pasted__pasted__pasted__pasted__group7
+    100216: pasted__pSphere2
+    100218: pCone2
+    100220: pCone3
+    100222: pCube1
+    100224: pPipe1
+    100226: pSphere2
+    100228: //RootNode
+    100230: Right_claw
+    100232: Right_claw_2
+    100234: Right_claw_3
+    100236: Right_ear_stork
+    100238: right_ear_top
+    100240: Right_eye
+    100242: Right_Fin
+    100244: Right_Finger_1
+    100246: Right_finger_1_
+    100248: Right_Finger_2
+    100250: Right_Finger_3
+    100252: Right_Hand
+    100254: right_left_foot
+    100256: Right_left_toe
+    100258: Right_Leg
+    100260: Right_Right_foot
+    100262: Right_Right_toe
+    100264: Right_right_toe
+    100266: Right_wing
+    100268: Tail
+    400000: Beak
+    400002: Body
+    400004: Body 1
+    400006: Body 1_MeshPart0
+    400008: Body 1_MeshPart1
+    400010: group
+    400012: group10
+    400014: group2
+    400016: group21
+    400018: group22
+    400020: group23
+    400022: group24
+    400024: group27
+    400026: group3
+    400028: group31
+    400030: group4
+    400032: group5
+    400034: group6
+    400036: group7
+    400038: group8
+    400040: group9
+    400042: Head
+    400044: Head 1
+    400046: left__foot
+    400048: Left_claw
+    400050: Left_claw_1
+    400052: Left_claw_2
+    400054: Left_claw_3
+    400056: left_ear
+    400058: left_ear1
+    400060: Left_ear_stork
+    400062: Left_ear_stork3
+    400064: Left_ear_stork4
+    400066: Left_ear_top
+    400068: Left_eye
+    400070: Left_Fin
+    400072: Left_finger_1
+    400074: Left_finger_2
+    400076: Left_finger_3
+    400078: Left_left_foot
+    400080: left_left_foot
+    400082: Left_left_toe
+    400084: Left_left_toe 1
+    400086: Left_leg
+    400088: Left_leg 1
+    400090: Left_right_foot
+    400092: left_right_toe
+    400094: left_toe
+    400096: Left_wing
+    400098: pasted__group21
+    400100: pasted__group21 1
+    400102: pasted__group22
+    400104: pasted__group22 1
+    400106: pasted__group23
+    400108: pasted__group26
+    400110: pasted__group3
+    400112: pasted__group3 1
+    400114: pasted__group3 2
+    400116: pasted__group4
+    400118: pasted__group4 1
+    400120: pasted__group4 2
+    400122: pasted__group5
+    400124: pasted__group5 1
+    400126: pasted__group5 2
+    400128: pasted__group6
+    400130: pasted__group6 1
+    400132: pasted__group6 2
+    400134: pasted__group7
+    400136: pasted__group7 1
+    400138: pasted__group7 2
+    400140: pasted__group8
+    400142: pasted__left_left_foot
+    400144: pasted__pasted__group21
+    400146: pasted__pasted__group21 1
+    400148: pasted__pasted__group22
+    400150: pasted__pasted__group3
+    400152: pasted__pasted__group3 1
+    400154: pasted__pasted__group3 2
+    400156: pasted__pasted__group4
+    400158: pasted__pasted__group4 1
+    400160: pasted__pasted__group4 2
+    400162: pasted__pasted__group5
+    400164: pasted__pasted__group5 1
+    400166: pasted__pasted__group5 2
+    400168: pasted__pasted__group6
+    400170: pasted__pasted__group6 1
+    400172: pasted__pasted__group6 2
+    400174: pasted__pasted__group7
+    400176: pasted__pasted__group7 1
+    400178: pasted__pasted__group7 2
+    400180: pasted__pasted__left_left_foot
+    400182: pasted__pasted__Left_left_toe
+    400184: pasted__pasted__pasted__group21
+    400186: pasted__pasted__pasted__group3
+    400188: pasted__pasted__pasted__group3 1
+    400190: pasted__pasted__pasted__group4
+    400192: pasted__pasted__pasted__group4 1
+    400194: pasted__pasted__pasted__group5
+    400196: pasted__pasted__pasted__group5 1
+    400198: pasted__pasted__pasted__group6
+    400200: pasted__pasted__pasted__group6 1
+    400202: pasted__pasted__pasted__group7
+    400204: pasted__pasted__pasted__group7 1
+    400206: pasted__pasted__pasted__pasted__group3
+    400208: pasted__pasted__pasted__pasted__group4
+    400210: pasted__pasted__pasted__pasted__group5
+    400212: pasted__pasted__pasted__pasted__group6
+    400214: pasted__pasted__pasted__pasted__group7
+    400216: pasted__pSphere2
+    400218: pCone2
+    400220: pCone3
+    400222: pCube1
+    400224: pPipe1
+    400226: pSphere2
+    400228: //RootNode
+    400230: Right_claw
+    400232: Right_claw_2
+    400234: Right_claw_3
+    400236: Right_ear_stork
+    400238: right_ear_top
+    400240: Right_eye
+    400242: Right_Fin
+    400244: Right_Finger_1
+    400246: Right_finger_1_
+    400248: Right_Finger_2
+    400250: Right_Finger_3
+    400252: Right_Hand
+    400254: right_left_foot
+    400256: Right_left_toe
+    400258: Right_Leg
+    400260: Right_Right_foot
+    400262: Right_Right_toe
+    400264: Right_right_toe
+    400266: Right_wing
+    400268: Tail
+    4300000: Head
+    4300002: pSphere2
+    4300004: pasted__pSphere2
+    4300006: Left_ear_stork
+    4300008: pCone2
+    4300010: Left_leg
+    4300012: left_left_foot
+    4300014: Left_left_toe
+    4300016: left__foot
+    4300018: left_toe
+    4300020: pasted__left_left_foot
+    4300022: Right_Right_toe
+    4300024: pasted__pasted__left_left_foot
+    4300026: pasted__pasted__Left_left_toe
+    4300028: Right_Fin
+    4300030: Left_Fin
+    4300032: pCone3
+    4300034: pCube1
+    4300036: Left_claw_3
+    4300038: Left_claw_2
+    4300040: Left_claw_1
+    4300042: Right_Hand
+    4300044: Right_Finger_1
+    4300046: Right_claw_2
+    4300048: Right_claw_3
+    4300050: pPipe1
+    4300052: left_ear
+    4300054: left_ear1
+    4300056: Body_MeshPart0
+    4300058: Body_MeshPart1
+    4300060: Left_ear_stork3
+    9500000: //RootNode
+    13700000: Body 1_MeshPart0
+    13700002: Body 1_MeshPart1
+    13700004: Head
+    13700006: left__foot
+    13700008: Left_claw_1
+    13700010: Left_claw_2
+    13700012: Left_claw_3
+    13700014: left_ear
+    13700016: left_ear1
+    13700018: Left_ear_stork
+    13700020: Left_ear_stork3
+    13700022: Left_Fin
+    13700024: left_left_foot
+    13700026: Left_left_toe 1
+    13700028: Left_leg 1
+    13700030: left_toe
+    13700032: pasted__left_left_foot
+    13700034: pasted__pasted__left_left_foot
+    13700036: pasted__pasted__Left_left_toe
+    13700038: pasted__pSphere2
+    13700040: pCone2
+    13700042: pCone3
+    13700044: pCube1
+    13700046: pPipe1
+    13700048: pSphere2
+    13700050: Right_claw_2
+    13700052: Right_claw_3
+    13700054: Right_Fin
+    13700056: Right_Finger_1
+    13700058: Right_Hand
+    13700060: Right_Right_toe
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

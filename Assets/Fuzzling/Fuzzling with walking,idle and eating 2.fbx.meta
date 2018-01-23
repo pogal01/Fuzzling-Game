@@ -1,0 +1,350 @@
+fileFormatVersion: 2
+guid: bb4d6cf3c3eaa364fae162649d9bff20
+timeCreated: 1510257791
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Big_left_puple
+    100002: Big_Right_puple
+    100004: bottom
+    100006: Fur_layer
+    100008: Fuzz
+    100010: //RootNode
+    100012: group
+    100014: group 1
+    100016: group1
+    100018: group10
+    100020: group2
+    100022: group3
+    100024: group4
+    100026: group5
+    100028: group6
+    100030: group7
+    100032: group8
+    100034: group9
+    100036: Left_big_puple
+    100038: Left_ear_stork
+    100040: Left_ear_stork 1
+    100042: Left_eye
+    100044: Left_eye 1
+    100046: Left_Foot
+    100048: Left_Foot 1
+    100050: Left_Fuzzball
+    100052: Left_small_puple
+    100054: Left_tooth
+    100056: Left_tooth 1
+    100058: Main_rig
+    100060: Open_and_close
+    100062: pasted__group7
+    100064: persp1
+    100066: persp2
+    100068: Right_big_puple
+    100070: Right_ear_stork
+    100072: Right_ear_stork 1
+    100074: Right_eye
+    100076: Right_eye 1
+    100078: Right_Foot
+    100080: Right_Foot 1
+    100082: Right_Fuzzball
+    100084: Right_Fuzzy_ear
+    100086: Right_Fuzzy_ear1
+    100088: Right_small_puple
+    100090: Right_tooth
+    100092: Right_tooth 1
+    100094: Root
+    100096: Root 1
+    100098: Root 2
+    100100: Small_left_puple
+    100102: Small_Right_puple
+    100104: The_Body
+    100106: The_polygons
+    100108: Tounge
+    100110: Tounge 1
+    400000: Big_left_puple
+    400002: Big_Right_puple
+    400004: bottom
+    400006: Fur_layer
+    400008: Fuzz
+    400010: //RootNode
+    400012: group
+    400014: group 1
+    400016: group1
+    400018: group10
+    400020: group2
+    400022: group3
+    400024: group4
+    400026: group5
+    400028: group6
+    400030: group7
+    400032: group8
+    400034: group9
+    400036: Left_big_puple
+    400038: Left_ear_stork
+    400040: Left_ear_stork 1
+    400042: Left_eye
+    400044: Left_eye 1
+    400046: Left_Foot
+    400048: Left_Foot 1
+    400050: Left_Fuzzball
+    400052: Left_small_puple
+    400054: Left_tooth
+    400056: Left_tooth 1
+    400058: Main_rig
+    400060: Open_and_close
+    400062: pasted__group7
+    400064: persp1
+    400066: persp2
+    400068: Right_big_puple
+    400070: Right_ear_stork
+    400072: Right_ear_stork 1
+    400074: Right_eye
+    400076: Right_eye 1
+    400078: Right_Foot
+    400080: Right_Foot 1
+    400082: Right_Fuzzball
+    400084: Right_Fuzzy_ear
+    400086: Right_Fuzzy_ear1
+    400088: Right_small_puple
+    400090: Right_tooth
+    400092: Right_tooth 1
+    400094: Root
+    400096: Root 1
+    400098: Root 2
+    400100: Small_left_puple
+    400102: Small_Right_puple
+    400104: The_Body
+    400106: The_polygons
+    400108: Tounge
+    400110: Tounge 1
+    2000000: bottom
+    2000002: persp1
+    2000004: persp2
+    4300000: Fur_layer
+    4300002: The_Body
+    4300004: Right_Foot
+    4300006: Left_Foot
+    4300008: Tounge
+    4300010: Right_ear_stork
+    4300012: Left_tooth
+    4300014: Right_tooth
+    4300016: Left_ear_stork
+    4300018: Right_Fuzzy_ear
+    4300020: Root
+    4300022: Right_Fuzzy_ear1
+    4300024: Right_small_puple
+    4300026: Right_eye
+    4300028: Right_big_puple
+    4300030: Left_small_puple
+    4300032: Left_eye
+    4300034: Left_big_puple
+    7400000: All of them
+    7400002: Walking
+    7400004: idle
+    7400006: Tounge
+    9500000: //RootNode
+    13700000: Fur_layer
+    13700002: Left_big_puple
+    13700004: Left_ear_stork 1
+    13700006: Left_eye 1
+    13700008: Left_Foot 1
+    13700010: Left_small_puple
+    13700012: Left_tooth 1
+    13700014: Right_big_puple
+    13700016: Right_ear_stork 1
+    13700018: Right_eye 1
+    13700020: Right_Foot 1
+    13700022: Right_Fuzzy_ear
+    13700024: Right_Fuzzy_ear1
+    13700026: Right_small_puple
+    13700028: Right_tooth 1
+    13700030: Root 2
+    13700032: The_Body
+    13700034: Tounge 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: All of them
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 310
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tounge
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 310
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
