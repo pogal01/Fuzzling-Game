@@ -9,6 +9,7 @@ public class PlatformAttatch : MonoBehaviour {
     public GameObject EmptyObject;
    // public GameObject FrontCam;
     public GameObject Backcam;
+    //public GameObject Platform;
     
 
     void OnTriggerEnter()
