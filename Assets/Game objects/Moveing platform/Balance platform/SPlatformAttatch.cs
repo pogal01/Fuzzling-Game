@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlatformAttatch : MonoBehaviour { 
+public class SPlatformAttatch : MonoBehaviour { 
 
     public GameObject Object;
     public GameObject ThePlayer;
@@ -10,6 +10,7 @@ public class PlatformAttatch : MonoBehaviour {
    // public GameObject FrontCam;
     public GameObject Backcam;
     public GameObject Platform;
+    public GameObject Rotation;
     
 
     void OnTriggerEnter()
@@ -20,6 +21,7 @@ public class PlatformAttatch : MonoBehaviour {
         EmptyObject.transform.parent = ThePlayer.transform;
         //FrontCam.transform.parent = EmptyObject.transform;
         Backcam.transform.parent = EmptyObject.transform;
+        ThePlayer.transform.parent = Rotation.transform;
 
 
 

@@ -13,6 +13,8 @@ public class Respawning : MonoBehaviour
     public GameObject Respawnpoint1;
     public GameObject Respawnpoint2;
     public GameObject StartPoint;
+    public GameObject Camback;
+    public GameObject Cambackpos;
 
 
     void Start()
@@ -24,6 +26,8 @@ public class Respawning : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         player.transform.position = respawnPoint.transform.position;
+        Camback.transform.position = Cambackpos.transform.position;
+        Camback.transform.parent = Cambackpos.transform;
     }
 
     void Update()

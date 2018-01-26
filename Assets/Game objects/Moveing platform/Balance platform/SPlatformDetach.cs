@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlatformDetach : MonoBehaviour {
+public class SPlatformDetach : MonoBehaviour {
 
     public GameObject Theplayer;
     public GameObject FrontCam;
