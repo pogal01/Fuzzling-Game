@@ -9,14 +9,14 @@ public class PlatformAttatch : MonoBehaviour {
     public GameObject EmptyObject;
    // public GameObject FrontCam;
     public GameObject Backcam;
-    public GameObject Platform;
+   
     
 
     void OnTriggerEnter()
     {
 
         
-        ThePlayer.transform.parent = EmptyObject.transform;
+        ThePlayer.transform.parent = Object.transform;
         EmptyObject.transform.parent = ThePlayer.transform;
         //FrontCam.transform.parent = EmptyObject.transform;
         Backcam.transform.parent = EmptyObject.transform;
