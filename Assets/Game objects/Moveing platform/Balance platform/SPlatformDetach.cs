@@ -9,20 +9,37 @@ public class SPlatformDetach : MonoBehaviour {
     public GameObject BackCam;
     public GameObject BackCamPlace;
     //public GameObject FrontCamPlace;
+    static Animator animatSMPlatform;
+    public GameObject Platform;
+
+
+
+
+
+
+    void Start()
+    {
+        animatSMPlatform = GetComponent<Animator>();
+    }
+
+
 
 
     private void OnTriggerEnter()
     {
+        if (Theplayer)
+        {
+
         Theplayer.transform.parent = null;
         FrontCam.transform.parent = Theplayer.transform;
-        BackCam.transform.parent = Theplayer.transform;
+        BackCam.transform.parent = BackCamPlace.transform;
 
-        GameObject.Find ("Swaying Trigger").GetComponent<SPlatformAttatch>().
-        if (GameObject.Find("Swaying Trigger").GetComponent<SPlatformAttatch>().PlayerAttached)
-        {
-            animatSMPlatform.SetBool("IPA", false);
+
+
+
+            Platform.animation.setbool("IPA", true);
 
         }
-            ;
     }
 }
+
