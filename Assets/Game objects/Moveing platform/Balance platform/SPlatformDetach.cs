@@ -9,23 +9,32 @@ public class SPlatformDetach : MonoBehaviour {
     public GameObject BackCam;
     public GameObject BackCamPlace;
     //public GameObject FrontCamPlace;
-    public GameObject Platform;
+    //public GameObject Platform;
     public bool StopAnimat = false;
-    public Gameobject Detachplat;
+    //public GameObject Detachplat;
 
 
 
-
+   
 
     void Start()
     {
-        animatSMPlatform = GetComponent<SPlatformAttach>();
+        GameObject.FindGameObjectsWithTag("DPlat");
+        StopAnimat = false;
+    }
+
+    void Update()
+    {
+        if (StopAnimat == true)
+        {
+
+
+        }
+
     }
 
 
-
-
-    private void OnTriggerEnter()
+        private void OnTriggerEnter()
     {
         if (Theplayer)
         {
@@ -34,10 +43,10 @@ public class SPlatformDetach : MonoBehaviour {
         FrontCam.transform.parent = Theplayer.transform;
         BackCam.transform.parent = BackCamPlace.transform;
 
+        StopAnimat = true;
 
 
 
-         Platform.GetComponent<animatSMPlatform>.Setbool("IPA", false);
 
         }
     }

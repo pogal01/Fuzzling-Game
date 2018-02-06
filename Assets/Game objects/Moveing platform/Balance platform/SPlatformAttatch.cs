@@ -12,41 +12,52 @@ public class SPlatformAttatch : MonoBehaviour {
     // public GameObject FrontCam;
     public GameObject Backcam;
     public bool PlayerAttached = false;
-   
+    private SPlatformDetach PlatD; 
+    
 
+   void Awake()
+    {
+        PlatD = GetComponent<SPlatformDetach>();
+
+
+    }
 
     void Start()
     {
         animatSMPlatform = GetComponent<Animator>();
         PlayerAttached = false;
+        animatSMPlatform.SetBool("IPA", false);
+
     }
 
     void Update()
     {
-        if (PlayerAttached = true)
-            {
-            GameObject.FindWithTag("DetachTrigger");
+        if (PlatD.StopAnimat == true)
+        {
             animatSMPlatform.SetBool("IPA", false);
+            PlayerAttached = false;
+        }
+
+    }
+
+   
+
+
+    void OnTriggerEnter()
+        {
+            animatSMPlatform.SetBool("IPA", true);
+            ThePlayer.transform.parent = Object.transform;
+            EmptyObject.transform.parent = ThePlayer.transform;
+            //comented out because I don't want to use it right now but I might later
+            //FrontCam.transform.parent = EmptyObject.transform;
+            Backcam.transform.parent = EmptyObject.transform;
+            PlayerAttached = true;
+
+
 
         }
 
 
 
-    }
-        void OnTriggerEnter()
-    {
-        animatSMPlatform.SetBool("IPA", true);
-        ThePlayer.transform.parent = Object.transform;
-        EmptyObject.transform.parent = ThePlayer.transform;
-        //comented out because I don't want to use it right now but I might later
-        //FrontCam.transform.parent = EmptyObject.transform;
-        Backcam.transform.parent = EmptyObject.transform;
-        PlayerAttached = true;
-
-
-
-    }
-  
-        
-
+    
 }
