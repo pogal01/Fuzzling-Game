@@ -9,9 +9,9 @@ public class SPlatformDetach : MonoBehaviour {
     public GameObject BackCam;
     public GameObject BackCamPlace;
     //public GameObject FrontCamPlace;
-    static Animator animatSMPlatform;
     public GameObject Platform;
-
+    public bool StopAnimat = false;
+    public Gameobject Detachplat;
 
 
 
@@ -19,7 +19,7 @@ public class SPlatformDetach : MonoBehaviour {
 
     void Start()
     {
-        animatSMPlatform = GetComponent<Animator>();
+        animatSMPlatform = GetComponent<SPlatformAttach>();
     }
 
 
@@ -37,7 +37,7 @@ public class SPlatformDetach : MonoBehaviour {
 
 
 
-            Platform.animation.setbool("IPA", true);
+         Platform.GetComponent<animatSMPlatform>.Setbool("IPA", false);
 
         }
     }

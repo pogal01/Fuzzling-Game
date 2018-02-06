@@ -21,7 +21,19 @@ public class SPlatformAttatch : MonoBehaviour {
         PlayerAttached = false;
     }
 
-    void OnTriggerEnter()
+    void Update()
+    {
+        if (PlayerAttached = true)
+            {
+            GameObject.FindWithTag("DetachTrigger");
+            animatSMPlatform.SetBool("IPA", false);
+
+        }
+
+
+
+    }
+        void OnTriggerEnter()
     {
         animatSMPlatform.SetBool("IPA", true);
         ThePlayer.transform.parent = Object.transform;
@@ -30,8 +42,11 @@ public class SPlatformAttatch : MonoBehaviour {
         //FrontCam.transform.parent = EmptyObject.transform;
         Backcam.transform.parent = EmptyObject.transform;
         PlayerAttached = true;
-        
-    }
 
+
+
+    }
+  
+        
 
 }
