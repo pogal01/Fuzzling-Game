@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Tests/Menue.unity
+    guid: 5391d714199ae8a4c890a7ceb439f173
+  - enabled: 1
+    path: Assets/Tests/Fuzzling test.unity
+    guid: f81ed2b6ad389c047aff1c4f2ad295a5
